@@ -13,7 +13,7 @@ files.upload()  # This will prompt you to upload the kaggle.json file
 
 !pip install kaggle
 
-!kaggle datasets download -d shaunthesheep/microsoft-catsvsdogs-dataset
+!kaggle datasets download -d saleel/microsoft-catsvsdogs-dataset
 
 import zipfile
 import os
