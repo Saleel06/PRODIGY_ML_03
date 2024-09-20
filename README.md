@@ -1,9 +1,10 @@
 
+
 # Cat vs Dog Classification
 
 ## Overview
 
-A Support Vector Machine (SVM) model to classify images of cats and dogs using Scikit-Learn.
+This project demonstrates the use of a Support Vector Machine (SVM) for classifying images of cats and dogs. The model is trained using Scikit-Learn and OpenCV for image preprocessing.
 
 ## Installation
 
@@ -23,16 +24,28 @@ A Support Vector Machine (SVM) model to classify images of cats and dogs using S
     pip install -r requirements.txt
     ```
 
-3. **Run the Script:**
+3. **Training the Model:**
+
+    Place your dataset in the `data` folder and run the `train_model.py` script to train the SVM model.
 
     ```bash
-    python app.py
+    python train_model.py
     ```
 
-## Features
+4. **Testing the Model:**
 
-- SVM-based image classification for cats and dogs.
-- Uses Scikit-Learn for model building and image processing.
+    Use the `test_model.py` script to evaluate the model on your test images.
+
+    ```bash
+    python test_model.py
+    ```
+
+## Project Structure
+
+- `train_model.py`: Script to train the SVM model.
+- `test_model.py`: Script to test the trained model.
+- `requirements.txt`: Python dependencies.
+- `data/`: Directory to store the dataset.
 
 ## Technologies
 
@@ -42,4 +55,3 @@ A Support Vector Machine (SVM) model to classify images of cats and dogs using S
 ## License
 
 Licensed under the MIT License.
-
