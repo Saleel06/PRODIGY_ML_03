@@ -36,6 +36,3 @@ This project demonstrates the use of a Support Vector Machine (SVM) for classify
 - **Machine Learning:** Scikit-Learn
 - **Image Processing:** OpenCV, NumPy
 
-## License
-
-Licensed under the MIT License.
